@@ -1,0 +1,33 @@
+.textAreaWrapper {
+  position: relative;
+  width: min-content;
+}
+
+.textArea {
+  border-radius: 8px;
+  border: 1px solid lightgrey;
+  box-shadow: 5px 5px 5px lightgrey;
+  min-width: 500px;
+  max-width: 500px;
+  height: 150px;
+  padding: 15px;
+}
+
+
+.lenBar {
+  height: 8px;
+  bottom: 3px;
+  transition: width .4s ease;
+  position: absolute;
+  left: 0px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.textAreaWrapper :global p {
+  color: red;
+  position: absolute;
+  right: 0;
+  bottom: -35px;
+  transition: all .4s ease;
+}
