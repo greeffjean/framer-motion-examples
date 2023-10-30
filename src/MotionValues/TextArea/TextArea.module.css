@@ -13,14 +13,17 @@
   padding: 15px;
 }
 
+/* .textArea:global:focus {
+  transition: outline-color .4s ease;
+} */
 
 .lenBar {
   height: 8px;
-  bottom: 3px;
-  transition: width .4s ease;
+  bottom: 5px;
+  /* transition: width 0.4s ease; */
   position: absolute;
-  left: 0px;
-  border-bottom-left-radius: 20px;
+  left: 2px;
+  border-bottom-left-radius: 8px;
   border-bottom-right-radius: 20px;
 }
 
@@ -29,5 +32,5 @@
   position: absolute;
   right: 0;
   bottom: -35px;
-  transition: all .4s ease;
+  /* transition: all 0.4s ease; */
 }

@@ -1,0 +1,16 @@
+.slide {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+
+.slide :global h1 {
+  font-family: Verdana;
+  font-size: 65px;
+  text-shadow: 3px 5px 10px yellowgreen;
+  color: rgb(236, 242, 123);
+}
+

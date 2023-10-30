@@ -1,0 +1,9 @@
+.wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.wrapper :global button {
+    background-color: transparent;
+    border: none;
+}
